@@ -1,13 +1,11 @@
 variable "instance_type" {
     type = string
     default = "t3.small"
-  
 }
 
 variable "ami_id" {
     type = string
     default = "ami-09c813fb71547fc4f"
-  
 }
 
 variable "ec2_tags" {
